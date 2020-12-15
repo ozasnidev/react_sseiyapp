@@ -19,7 +19,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/gold"
+                        to="/goldsaints"
                     >
                         Oro
                     </NavLink>
@@ -28,7 +28,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/silver"
+                        to="/silversaints"
                     >
                         Plata
                     </NavLink>
@@ -37,7 +37,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/bronze"
+                        to="/bronzesaints"
                     >
                         Bronze
                     </NavLink>

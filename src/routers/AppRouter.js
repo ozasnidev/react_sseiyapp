@@ -1,7 +1,6 @@
 import React from 'react';
-import { Navbar } from '../components/ui/Navbar';
 import { LoginScreen } from '../components/login/LoginScreen';
-import { BronzeSaints } from '../components/saints/bronze/bronzeSaints';
+import { DashboardRouter } from '../routers/DashboardRouter';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,10 +12,9 @@ export const AppRouter = () => {
         <div>
             <Router>
                 <div>
-                    <Navbar />
                     <Switch>
                         <Route exact path="/login" component={ LoginScreen } />
-                        <Route exact path="/" component={ BronzeSaints } />                   
+                        <Route path="/" component={ DashboardRouter } />
                     </Switch>
                 </div>
             </Router>
