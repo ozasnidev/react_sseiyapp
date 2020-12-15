@@ -3,58 +3,56 @@ import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            
-            <Link 
-                className="navbar-brand" 
-                to="/"
-            >
-                Rangos 
-            </Link>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container-fluid">
+                <Link 
+                    className="navbar-brand" 
+                    to="/"
+                >
+                    Rangos 
+                </Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="navbar-collapse collapse" id="navbarNav">
+                    <div className="navbar-nav">
+                        <NavLink 
+                            activeClassName="active"
+                            className="nav-item nav-link" 
+                            exact
+                            to="/goldsaints"
+                        >
+                            Oro
+                        </NavLink>
 
-            <div className="navbar-collapse">
-                <div className="navbar-nav">
+                        <NavLink 
+                            activeClassName="active"
+                            className="nav-item nav-link" 
+                            exact
+                            to="/silversaints"
+                        >
+                            Plata
+                        </NavLink>
 
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/goldsaints"
-                    >
-                        Oro
-                    </NavLink>
+                        <NavLink 
+                            activeClassName="active"
+                            className="nav-item nav-link" 
+                            exact
+                            to="/bronzesaints"
+                        >
+                            Bronze
+                        </NavLink>
 
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/silversaints"
-                    >
-                        Plata
-                    </NavLink>
-
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/bronzesaints"
-                    >
-                        Bronze
-                    </NavLink>
+                        <NavLink 
+                            activeClassName="active"
+                            className="nav-item nav-link" 
+                            exact
+                            to="/login"
+                        >
+                            Logout
+                        </NavLink>
+                    </div>
                 </div>
-            </div>
-
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul className="navbar-nav ml-auto">
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/login"
-                    >
-                        Logout
-                    </NavLink>
-                </ul>
             </div>
         </nav>
     )
