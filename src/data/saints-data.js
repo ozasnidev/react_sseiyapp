@@ -2,297 +2,297 @@ export const saintsData = [
     {
         id: 'caballero-pegaso',
         constellation: 'Pegaso',
-        rango: 'Bronce',
-        nombre: 'Seiya',
-        ataque: 'Meteoro de Pegaso',
-        nacionalidad: 'Japón'
+        range: 'Bronze',
+        name: 'Seiya',
+        attack: 'Pegasus ryu seiken',
+        country: 'Japan'
     },
     {
         id: 'caballero-dragon',
         constellation: 'Dragón',
-        rango:'Bronce',
-        nombre: 'Shiryu',
-        ataque: 'Dragón ascendente',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Shiryu',
+        attack: 'Rozan leinsho',
+        country: 'Japan'
     },
     {
         id: 'caballero-cisne',
         constellation: 'Cisne',
-        rango:'Bronce',
-        nombre: 'Hyoga',
-        ataque: 'Polvo de diamantes',
-        nacionalidad: 'Rusia'
+        range:'Bronze',
+        name: 'Hyoga',
+        attack: 'Diamond dust',
+        country: 'Rusia'
     },
     {
         id: 'caballero-andromeda',
         constellation: 'Andrómeda',
-        rango:'Bronce',
-        nombre: 'Shun',
-        ataque: 'Tormenta Nebular',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Shun',
+        attack: 'Nebular storm',
+        country: 'Japan'
     },
     {
         id: 'caballero-fenix',
         constellation: 'Fénix',
-        rango:'Bronce',
-        nombre: 'Ikki',
-        ataque: 'Alas ardientes del Fénix',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Ikki',
+        attack: 'Horyu tensho',
+        country: 'Japan'
     },
     {
         id: 'caballero-hydra',
         constellation: 'Hydra',
-        rango:'Bronce',
-        nombre: 'Ichi',
-        ataque: 'Urpas venenosas',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Ichi',
+        attack: 'Poison slash',
+        country: 'Japan'
     },
     {
         id: 'caballero-unicornio',
         constellation: 'Unicornio',
-        rango:'Bronce',
-        nombre: 'Jabú',
-        ataque: 'Galope del Unicornio',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Jabú',
+        attack: 'Unicorn fly',
+        country: 'Japan'
     },
     {
         id: 'caballero-lobo',
         constellation: 'Lobo',
-        rango:'Bronce',
-        nombre: 'Nachi',
-        ataque: 'Colmillo del Lobo',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Nachi',
+        attack: 'Wolf attack',
+        country: 'Japan'
     },
     {
         id: 'caballero-osamayor',
         constellation: 'Osa Mayor',
-        rango:'Bronce',
-        nombre: 'Gekki',
-        ataque: 'Abrazo del oso',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Gekki',
+        attack: 'Bear mortal press',
+        country: 'Japan'
     },
     {
         id: 'caballero-leonmenor',
         constellation: 'León Menor',
-        rango:'Bronce',
-        nombre: 'Ban',
-        ataque: 'Rugido de fuego',
-        nacionalidad: 'Japón'
+        range:'Bronze',
+        name: 'Ban',
+        attack: 'Fire hunter',
+        country: 'Japan'
     },
     {
         id: 'caballero-cefeo',
         constellation: 'Cefeo',
-        rango:'Plata',
-        nombre: 'Albiore/Daidalos',
-        ataque: 'Cadena nebular',
-        nacionalidad: 'Argentina'
+        range:'Silver',
+        name: 'Albiore/Daidalos',
+        attack: 'Nebular chain',
+        country: 'Argentina'
     },
     {
         id: 'caballero-heracles',
         constellation: 'Heracles',
-        rango:'Plata',
-        nombre: 'Algethi',
-        ataque: 'Kornephoros',
-        nacionalidad: 'Chipre'
+        range:'Silver',
+        name: 'Algethi',
+        attack: 'Kornephoros',
+        country: 'Cyprus'
     },
     {
         id: 'caballero-canmayor',
         constellation: 'Can Mayor',
-        rango:'Plata',
-        nombre: 'Sirius',
-        ataque: ' Great Mountain Smasher',
-        nacionalidad: 'Alemania'
+        range:'Silver',
+        name: 'Sirius',
+        attack: 'Great Mountain Smasher',
+        country: 'Germany'
     },
     {
         id: 'caballero-mosca',
         constellation: 'Mosca',
-        rango:'Plata',
-        nombre: 'Dio',
-        ataque: 'Dead end fly',
-        nacionalidad: 'Mexico'
+        range:'Silver',
+        name: 'Dio',
+        attack: 'Dead end fly',
+        country: 'Mexico'
     },
     {
         id: 'caballero-cetus',
         constellation: 'Cetus',
-        rango:'Plata',
-        nombre: 'Moses',
-        ataque: 'Cetus spouting bomber',
-        nacionalidad: 'Nueva Zelanda'
+        range:'Silver',
+        name: 'Moses',
+        attack: 'Cetus spouting bomber',
+        country: 'New Zealand'
     },
     {
         id: 'caballero-centauro',
         constellation: 'Centauro',
-        rango:'Plata',
-        nombre: 'Babel',
-        ataque: 'Burning sky',
-        nacionalidad: 'Irak'
+        range:'Silver',
+        name: 'Babel',
+        attack: 'Burning sky',
+        country: 'Irak'
     },
     {
         id: 'caballero-lagarto',
         constellation: 'Lagarto',
-        rango:'Plata',
-        nombre: 'Misty',
-        ataque: 'Mavrou Trypa',
-        nacionalidad: 'Francia'
+        range:'Silver',
+        name: 'Misty',
+        attack: 'Mavrou Trypa',
+        country: 'France'
     },
     {
         id: 'caballero-aguila',
         constellation: 'Águila',
-        rango:'Plata',
-        nombre: 'Marin',
-        ataque: 'Eable Toe Flash',
-        nacionalidad: 'Japón'
+        range:'Silver',
+        name: 'Marin',
+        attack: 'Eable Toe Flash',
+        country: 'Japan'
     },
     {
         id: 'caballero-ophiucus',
         constellation: 'Ofiuco',
-        rango:'Plata',
-        nombre: 'Shaina',
-        ataque: 'Thunder claw',
-        nacionalidad: 'Italia'
+        range:'Silver',
+        name: 'Shaina',
+        attack: 'Thunder claw',
+        country: 'Italy'
     },
     {
         id: 'caballero-cuervo',
         constellation: 'Cuervo',
-        rango:'Plata',
-        nombre: 'Jamian',
-        ataque: 'Black wing shaft',
-        nacionalidad: 'Reino Unido'
+        range:'Silver',
+        name: 'Jamian',
+        attack: 'Black wing shaft',
+        country: 'United Kingdom'
     },
     {
         id: 'caballero-auriga',
         constellation: 'Auriga',
-        rango:'Plata',
-        nombre: 'Capella',
-        ataque: 'Discos de auriga',
-        nacionalidad: 'Grecia'
+        range:'Silver',
+        name: 'Capella',
+        attack: 'Auriga mortal disk',
+        country: 'Greece'
     },
     {
         id: 'caballero-cerbero',
         constellation: 'Cerbero',
-        rango:'Plata',
-        nombre: 'Dante',
-        ataque: 'Cadena de Cerbero',
-        nacionalidad: 'Italia'
+        range:'Silver',
+        name: 'Dante',
+        attack: 'Cerberus chain',
+        country: 'Italy'
     },
     {
         id: 'caballero-perseus',
         constellation: 'Perseus',
-        rango:'Plata',
-        nombre: 'Algol',
-        ataque: 'Medusa shield shy',
-        nacionalidad: 'Arabia Saudita'
+        range:'Silver',
+        name: 'Algol',
+        attack: 'Medusa shield shy',
+        country: 'South Arabia'
     },
     {
         id: 'caballero-sagita',
         constellation: 'Sagita',
-        rango:'Plata',
-        nombre: 'Ptolemy',
-        ataque: 'Phantom arrow',
-        nacionalidad: 'Libia'
+        range:'Silver',
+        name: 'Ptolemy',
+        attack: 'Phantom arrow',
+        country: 'Libia'
     },
     {
         id: 'caballero-lira',
         constellation: 'Lira',
-        rango:'Plata',
-        nombre: 'Orpheé',
-        ataque: 'Serenata nocturna mortal',
-        nacionalidad: 'Grecia'
+        range:'Silver',
+        name: 'Orpheé',
+        attack: 'Night mortal serenade',
+        country: 'Greece'
     },
     {
         id: 'caballero-aries',
         constellation: 'Aries',
-        rango:'Oro',
-        nombre: 'Mu',
-        ataque: 'Starlight extinction',
-        nacionalidad: 'Mú'
+        range:'Gold',
+        name: 'Mu',
+        attack: 'Starlight extinction',
+        country: 'Mú'
     },
     {
         id: 'caballero-tauro',
         constellation: 'Tauro',
-        rango:'Oro',
-        nombre: 'Aldebarán',
-        ataque: 'Gran cuerno',
-        nacionalidad: 'Brasil'
+        range:'Gold',
+        name: 'Aldebarán',
+        attack: 'Great horn',
+        country: 'Brazil'
     },
     {
         id: 'caballero-geminis',
         constellation: 'Géminis',
-        rango:'Plata',
-        nombre: 'Saga/Kanon',
-        ataque: 'Galaxian explossion',
-        nacionalidad: 'Grecia'
+        range:'Gold',
+        name: 'Saga/Kanon',
+        attack: 'Galaxian explossion',
+        country: 'Greece'
     },
     {
         id: 'caballero-cancer',
         constellation: 'Cáncer',
-        rango:'Oro',
-        nombre: 'Deathmask',
-        ataque: 'Shikishiki meikai ha',
-        nacionalidad: 'Italia'
+        range:'Gold',
+        name: 'Deathmask',
+        attack: 'Shekishiki meikai ha',
+        country: 'Italy'
     },
     {
         id: 'caballero-leo',
         constellation: 'Leo',
-        rango:'Oro',
-        nombre: 'Aioria',
-        ataque: 'Lightning volt',
-        nacionalidad: 'Grecia'
+        range:'Gold',
+        name: 'Aioria',
+        attack: 'Lightning volt',
+        country: 'Greece'
     },
     {
         id: 'caballero-virgo',
         constellation: 'Virgo',
-        rango:'Oro',
-        nombre: 'Shaka',
-        ataque: 'Tesoro del cielo',
-        nacionalidad: 'India'
+        range:'Gold',
+        name: 'Shaka',
+        attack: 'Tenbu Hoorin',
+        country: 'India'
     },
     {
         id: 'caballero-libra',
         constellation: 'Libra',
-        rango:'Oro',
-        nombre: 'Dohko',
-        ataque: 'Cién dragones de Rozan',
-        nacionalidad: 'China'
+        range:'Gold',
+        name: 'Dohko',
+        attack: 'Rozan flying dragons',
+        country: 'China'
     },
     {
         id: 'caballero-escorpio',
         constellation: 'Escorpio',
-        rango:'Oro',
-        nombre: 'Milo',
-        ataque: 'Scarlett needle',
-        nacionalidad: 'Grecia'
+        range:'Gold',
+        name: 'Milo',
+        attack: 'Scarlett needle',
+        country: 'Greece'
     },
     {
         id: 'caballero-sagitario',
         constellation: 'Sagitario',
-        rango:'Oro',
-        nombre: 'Aioros',
-        ataque: 'Gold Athena arrow',
-        nacionalidad: 'Grecia'
+        range:'Gold',
+        name: 'Aioros',
+        attack: 'Gold Athena arrow',
+        country: 'Greece'
     },
     {
         id: 'caballero-capricornio',
         constellation: 'Capricornio',
-        rango:'Oro',
-        nombre: 'Shura',
-        ataque: 'Excalibur',
-        nacionalidad: 'España'
+        range:'Gold',
+        name: 'Shura',
+        attack: 'Excalibur',
+        country: 'Spain'
     },
     {
         id: 'caballero-acuario',
         constellation: 'Acuario',
-        rango:'Oro',
-        nombre: 'Camus',
-        ataque: 'Ejecución de la Aurora',
-        nacionalidad: 'Francia'
+        range:'Gold',
+        name: 'Camus',
+        attack: 'Aurora execution',
+        country: 'France'
     },
     {
         id: 'caballero-piscis',
         constellation: 'Piscis',
-        rango:'Oro',
-        nombre: 'Aphrodite',
-        ataque: 'Real bloody rose',
-        nacionalidad: 'Suecia'
+        range:'Gold',
+        name: 'Aphrodite',
+        attack: 'Real bloody rose',
+        country: 'Sweden'
     }
 ]
