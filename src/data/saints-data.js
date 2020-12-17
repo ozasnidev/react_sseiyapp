@@ -136,6 +136,14 @@ export const saintsData = [
         country: 'France'
     },
     {
+        id: 'caballero-perroscaza',
+        constellation: 'Perros de caza',
+        range:'Silver',
+        name: 'Asterión',
+        attack: 'Million ghost attack',
+        country: 'Denmark'
+    },
+    {
         id: 'caballero-aguila',
         constellation: 'Águila',
         range:'Silver',
@@ -144,7 +152,7 @@ export const saintsData = [
         country: 'Japan'
     },
     {
-        id: 'caballero-ophiucus',
+        id: 'caballero-ofiuco',
         constellation: 'Ofiuco',
         range:'Silver',
         name: 'Shaina',
@@ -176,7 +184,7 @@ export const saintsData = [
         country: 'Italy'
     },
     {
-        id: 'caballero-perseus',
+        id: 'caballero-perseo',
         constellation: 'Perseus',
         range:'Silver',
         name: 'Algol',
