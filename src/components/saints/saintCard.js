@@ -11,10 +11,10 @@ export const SaintCard = (saint) => {
                     <img src={`./assets/${ id }.jpg`} className="card-img" alt={ name } />
                 </div>
                 <div className="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">{constellation}</h5>
-                        <p class="card-text">{name} <small class="text-muted">({country})</small></p>
-                        <p class="card-text">{attack}</p>
+                    <div className="card-body">
+                        <h5 className="card-title">{constellation}</h5>
+                        <p className="card-text">{name} <small className="text-muted">({country})</small></p>
+                        <p className="card-text">{attack}</p>
                         <Link to={`./saint/${id}`}>Más info...</Link>
                     </div>
                 </div>
