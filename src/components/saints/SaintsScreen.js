@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {useMemo} from 'react'
 import { Redirect, useParams } from 'react-router-dom'
 import { getSaintById } from '../../selectors/getSaintById';
 
 export const SaintsScreen = ({ history }) => {
     const {saintId} = useParams();
-    const saintRequested = getSaintById(saintId);
+    const saintRequested = useMemo(() =>  getSaintById(saintId), [saintId]);
     const handleClose = () => { history.goBack(); }
     console.log(saintRequested);
 
