@@ -5,9 +5,8 @@ import { getSaintById } from '../../selectors/getSaintById';
 export const SaintsScreen = ({ history }) => {
     const {saintId} = useParams();
     const saintRequested = getSaintById(saintId);
-    const handleClose = () => {
-        history.goBack();
-    }
+    const handleClose = () => { history.goBack(); }
+    console.log(saintRequested);
 
     if(!saintRequested){
         return <Redirect to="/saint" />
@@ -33,7 +32,9 @@ export const SaintsScreen = ({ history }) => {
                             />
                     </div>
                     <h2>{saintRequested.constellation}</h2>
-
+                    <h5>Nombre: {saintRequested.name}</h5>
+                    <p>Ataque: {saintRequested.attack}</p>
+                    <p>Nacionalidad: {saintRequested.country}</p>
                 </div>
             </div>
         </div>
