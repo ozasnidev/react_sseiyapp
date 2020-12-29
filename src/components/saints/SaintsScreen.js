@@ -18,7 +18,7 @@ export const SaintsScreen = ({ history }) => {
                 <div className="col-4" >
                     <img
                         src={`../assets/${saintId}.jpg`}
-                        className="img-thumbnail"
+                        className="img-thumbnail  animate__animated animate__zoomIn"
                         alt={`${saintRequested.name}`}
                     />
                 </div>
@@ -32,9 +32,8 @@ export const SaintsScreen = ({ history }) => {
                             />
                     </div>
                     <h2>{saintRequested.constellation}</h2>
-                    <h5>Nombre: {saintRequested.name}</h5>
+                    <p className="fs-4">Nombre: {saintRequested.name} <small className="text-muted">({saintRequested.country})</small></p>
                     <p>Ataque: {saintRequested.attack}</p>
-                    <p>Nacionalidad: {saintRequested.country}</p>
                 </div>
             </div>
         </div>

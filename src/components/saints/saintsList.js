@@ -6,7 +6,7 @@ export const SaintsList = ({ range }) => {
     const saintsFoundedInDataByRange = useMemo(() =>  getSaintsByRange(range), [range]);
     return (
         <div className="container">
-            <div className="row row-cols-1 row-cols-md-3 g-2">
+            <div className="row row-cols-1 row-cols-md-3 g-2 animate__animated animate__fadeIn">
                 {
                     saintsFoundedInDataByRange.map( saint => (
                         <div className="col" key={saint.id}>
