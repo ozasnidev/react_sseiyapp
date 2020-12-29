@@ -1,11 +1,15 @@
 import React from 'react';
 import { saintsData } from '../../data/saints-data';
+import { useForm } from '../../hooks/useForm';
 import { SaintCard } from '../saints/saintCard';
 
 export const SearchScreen = () => {
     const saintsFounded = saintsData;
-    const handleSearch = () => {
-        console.log('???');
+    const [values, handleInputChange] = useForm({ searchSaintText: '' });
+    const { searchSaintText } = values;
+    const handleSearch = (event) => {
+        event.preventDefault();
+        console.log(searchSaintText);
 
     }
     return (
@@ -22,6 +26,10 @@ export const SearchScreen = () => {
                                 type="text"
                                 placeholder="Saint a buscar"
                                 className="form-control"
+                                name="searchSaintText"
+                                value={searchSaintText}
+                                onChange={handleInputChange}
+                                autoComplete="off"
                             />
                             <div className="d-grid gap-2 mx-auto">
                                 <button 

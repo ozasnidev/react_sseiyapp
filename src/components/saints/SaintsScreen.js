@@ -6,7 +6,6 @@ export const SaintsScreen = ({ history }) => {
     const {saintId} = useParams();
     const saintRequested = useMemo(() =>  getSaintById(saintId), [saintId]);
     const handleClose = () => { history.goBack(); }
-    console.log(saintRequested);
 
     if(!saintRequested){
         return <Redirect to="/saint" />
