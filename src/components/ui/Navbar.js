@@ -42,6 +42,15 @@ export const Navbar = () => {
                         >
                             Bronze
                         </NavLink>
+                        
+                        <NavLink 
+                            activeClassName="active"
+                            className="nav-item nav-link" 
+                            exact
+                            to="/search"
+                        >
+                            Buscar
+                        </NavLink>
 
                         <NavLink 
                             activeClassName="active"

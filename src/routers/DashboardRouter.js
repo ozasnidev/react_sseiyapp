@@ -5,6 +5,7 @@ import { GoldSaints } from '../components/saints/gold/goldSaints';
 import { SilverSaints } from '../components/saints/silver/silverSaints';
 import { BronzeSaints } from '../components/saints/bronze/bronzeSaints';
 import { SaintsScreen } from '../components/saints/SaintsScreen';
+import { SearchScreen } from '../components/search/searchScreen';
 
 export const DashboardRouter = () => {
     return (
@@ -17,6 +18,7 @@ export const DashboardRouter = () => {
                     <Route exact path="/bronzesaints" component={ BronzeSaints } />
                     <Route exact path="/saint" component={ SaintsScreen } />
                     <Route exact path="/saint/:saintId" component={ SaintsScreen } />
+                    <Route exact path="/search" component={ SearchScreen } />
                     <Redirect to="/saint" />
                 </Switch>
             </div>
