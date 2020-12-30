@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AuthContext } from '../../auth/AuthContext'
+import { types } from '../../types/types';
 
 export const LoginScreen = ({ history }) => {//TODO Apply his own styles. Eventually, Bootstrap styles applied
+    const { dispatch } = useContext(AuthContext);
     const onLogin = () => {
+        dispatch({
+            type: types.login,
+            payload: { name: 'Juan' }
+        });
         history.replace('/');
     }
     return (
