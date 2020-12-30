@@ -51,7 +51,7 @@ export const SearchScreen = ({ history }) => {
                     {
                         (q==='')
                             &&
-                            <div class="alert alert-info" role="alert">
+                            <div className="alert alert-info" role="alert">
                                 Escriba el nombre de un Saint
                             </div>   
                     }
@@ -59,7 +59,7 @@ export const SearchScreen = ({ history }) => {
                     {
                         (q !=='' && saintsFounded.length === 0)
                             && 
-                            <div class="alert alert-danger" role="alert">
+                            <div className="alert alert-danger" role="alert">
                                 No se encontraron nombres de Saint
                             </div>    
                     }
