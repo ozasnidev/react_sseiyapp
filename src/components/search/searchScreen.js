@@ -1,30 +1,35 @@
 import React from 'react';
+import queryString from 'query-string'
+import { useLocation } from 'react-router-dom';
 import { saintsData } from '../../data/saints-data';
 import { useForm } from '../../hooks/useForm';
 import { SaintCard } from '../saints/saintCard';
 
-export const SearchScreen = () => {
+export const SearchScreen = ({ history }) => {
+    const location = useLocation();
+    const {q = ''} = queryString.parse(location.search);
+    console.log(q);
     const saintsFounded = saintsData;
-    const [values, handleInputChange] = useForm({ searchSaintText: '' });
+    const [values, handleInputChange] = useForm({ searchSaintText: q });
     const { searchSaintText } = values;
     const handleSearch = (event) => {
         event.preventDefault();
-        console.log(searchSaintText);
+        history.push(`?q=${searchSaintText}`)
 
     }
     return (
         <div className="container-fluid">
-            <h1>Search</h1>
+            <h1>Buscar</h1>
             <hr />
             <div className="row">
                 <div className="position-relative">
                     <div className="col-4 position-relative top-0 start-50 translate-middle-x">
-                        <h4>Search Saint</h4>
+                        <h4>Buscar Saint</h4>
                         <hr />
                         <form onSubmit={ handleSearch }>
                             <input 
                                 type="text"
-                                placeholder="Saint a buscar"
+                                placeholder="Nombre"
                                 className="form-control"
                                 name="searchSaintText"
                                 value={searchSaintText}
