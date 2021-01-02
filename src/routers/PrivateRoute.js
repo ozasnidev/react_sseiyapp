@@ -7,6 +7,7 @@ export const PrivateRoute = ({
     isAuthenticated,
     ...rest
 }) => { 
+    localStorage.setItem('lastPage', rest.location.pathname);
     return (
         <Route {...rest} 
             render = { props => 
