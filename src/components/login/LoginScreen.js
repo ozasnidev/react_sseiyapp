@@ -5,11 +5,11 @@ import { types } from '../../types/types';
 export const LoginScreen = ({ history }) => {//TODO Apply his own styles. Eventually, Bootstrap styles applied
     const { dispatch } = useContext(AuthContext);
     const onLogin = () => {
+        history.replace('/');
         dispatch({
             type: types.login,
             payload: { name: 'Juan' }
         });
-        history.replace('/');
     }
     return (
         <div className="container mt-5">
